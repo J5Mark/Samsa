@@ -1,7 +1,10 @@
 body { 
     margin:0;
     padding:0;
-    font-family:helvetica, sans-serif; 
+    font-family: comic sans, papyrus; 
+	background: rgba(0, 0, 0, 0.7) url("../сало/ganja.webp") no-repeat;
+	background-size: cover;
+	background-blend-mode: darken;
 }
 
 a { 
@@ -15,28 +18,39 @@ h1 {
     padding:0 0 10px 0;
 }
 
+h2 a {
+	font-weight:normal;
+    margin:30px 0 0;
+	color: #fffcda;
+}
+
 h2 {
     font-weight:normal;
     margin:30px 0 0;
+	font: papyrus;
 }
 
 #content { 
     float:left;
     width:60%;
     padding:0 0 0 30px; 
+	font-family: papyrus;
+	color: #8AcD32;
 }
 
 #sidebar { 
     float:right;
+	text-align: right;
     width:30%;
-    padding:10px;
-    background:#efefef; 
+    padding:10px; 
     height:100%;
+	color:#010101;
+	background-color: #7AaD12;	
 }
 
 p.date { 
-    color:#ccc;
-    font-family: georgia, serif;
+    color:#ffffff;
+    font-family: papyrus;
     font-size: 12px;
     font-style: italic; 
 }
@@ -45,28 +59,29 @@ p.date {
 .pagination { 
     margin:40px 0; 
     font-weight:bold;
+	font-family: papyrus;
 }
 
 /* forms */
 label { 
     float:left;
     clear:both;
-    color:#333;
+    color:#eaf2d3;
     margin-bottom:4px; 
 }
 input, textarea { 
     clear:both;
     float:left;
     margin:0 0 10px;
-    background:#ededed;
+    background:#eaf2d3;
     border:0;
     padding:6px 10px;
     font-size:12px;
 }
 input[type=submit] {
     font-weight:bold;
-    background:#00abff;
-    color:#fff;
+    background:#eaf2d3;
+    color:#000000;
     padding:10px 20px;
     font-size:14px;
     text-transform:uppercase; 
@@ -88,5 +103,5 @@ input[type=submit] {
 .comment .info {
     font-weight:bold;
     font-size:12px;
-    color:#666;
+    color:#d6b456;
 }

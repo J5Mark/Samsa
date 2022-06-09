@@ -1,7 +1,7 @@
-words = [ 'chair', 'the pot', 'ganja', 'the crystals', 'my money', 'the guns', 'the children'] 
+words = [ 'chair', 'the pot', 'ganja', 'the crystals', 'my money', 'the guns', 'the children', 'my homies', 'yo mom'] 
 mmenia = [ 'I', 'we', 'you', 'they', 'he', 'she'] #1
 vbs = ['are', 'am', 'is', 'aint'] #2
-F_bombs = ['sheesh', 'lick', 'make', 'blow', 'love', 'call', 'phone', 'shoot', 'doodoo', 'gonna'] #2
+F_bombs = ['sheesh', 'lick', 'make', 'blow', 'love', 'call', 'phone', 'shoot', 'doodoo', 'gonna', 'boil', 'trade', 'smoke'] #2
 import random as rd
 txt = ''
 
